@@ -21,6 +21,7 @@ section {
 #section-section1 {
     background: url(cssimg/st1.jpg) center center no-repeat;
     background-size: cover;
+    background-color: #000000;
 }
 
 
@@ -69,6 +70,51 @@ section {
     font-family: Montserrat, sans-serif;
  }
 
+
+#slogandark h2 {
+    padding: 18% 0 0 0;
+    color: #313131;
+    text-shadow: none;
+    font-size: 72px;
+    line-height: 70px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+ }
+
+ #slogandark h3{
+    padding: 40% 0 0 0;
+    color: #313131;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: Crimson Text, serif;
+    font-style: italic;
+ }
+
+  #slogandark h4{
+    padding: 0% 0 0 0;
+    color: #313131;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: Crimson Text, serif;
+ }
+
+   #slogandark h5{
+    padding: 0% 0 0 0;
+    color: #313131;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+ }
 
 #section-section2 {
     background: url(cssimg/st2.jpg) center center no-repeat;

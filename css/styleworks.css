@@ -5,6 +5,25 @@
 		margin-top: 20px
 	}
 }
+.single_header{
+	padding: 20% 20% 20% 20%;
+	background-color: #b7d2ff;
+
+}
+.single_header h2{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	text-transform: uppercase;	
+	color: #000000;
+}
+.single_header h2{
+	position: center;
+	text-transform: uppercase;	
+	text-align: center;
+	color: #fff;
+}
+
 .single_image{
 	margin-right: 0px;
 	position: relative;

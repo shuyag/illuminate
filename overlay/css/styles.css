@@ -4,7 +4,8 @@ html, body {
 
 body {
   font-size: 17px;
-  background-color: black; }
+  background-color: black; 
+  opacity: 1;}
 
 .grid {
   list-style: none;
@@ -86,7 +87,7 @@ body {
       -o-transform: translate(0, 25px);
       transform: translate(0, 25px); }
       .grid .item-name-inner h1 small {
-        display: block;
+       display: block;
         text-transform: uppercase;
         color: white;
         font-size: 14px;
@@ -99,6 +100,7 @@ body {
         font-size: 42px;
         font-weight: 200; }
     .grid .item-name-inner p {
+      color: white;
       font-size: 18px;
       font-weight: 200;
       border-bottom: 2px solid white;
@@ -131,15 +133,21 @@ body {
     overflow: auto;
     -webkit-overflow-scrolling: touch; }
   .grid .item-content {
+    background-color: #ffffff;
+    opacity: 0.5;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20% 60px 60px; }
+    padding: 20% 10% 20% 10%; }
     .grid .item-content h2 {
+      color: black;
+      opacity: 1;
       font-size: 80px;
       margin-bottom: 50px;
       margin-top: 0;
       font-weight: 200; }
     .grid .item-content p {
+      color: black;
+      opacity: 1;
       margin-bottom: 25px; }
     .grid .item-content .image {
       display: block;
@@ -150,7 +158,7 @@ body {
     cursor: pointer;
     z-index: 1000;
     text-shadow: none;
-    color: white;
+    color: black;
     font-weight: 100;
     font-size: 90px;
     opacity: 0.7;
@@ -164,19 +172,19 @@ body {
 
 
 .grid li:nth-child(1) .item-bg, .grid li:nth-child(1) .item-overlay {
-   background: url(ovimg/w1.jpg) center center no-repeat;
+   background: url(ovimg/w1.png) center center no-repeat;
     background-size: cover;
-    background-color: #000000; }
+    background-color: #ffa42e;}
 .grid li:nth-child(2) .item-bg, .grid li:nth-child(2) .item-overlay {
-  background: url(ovimg/w2.jpg) center center no-repeat;
+    background: url(ovimg/w2.png) center center no-repeat;
     background-size: cover;
-    background-color: #000000; }
+    background-color: #7fffa9; }
 .grid li:nth-child(3) .item-bg, .grid li:nth-child(3) .item-overlay {
   background: url(ovimg/w3.jpg) center center no-repeat;
     background-size: cover;
     background-color: #000000; }
 .grid li:nth-child(4) .item-bg, .grid li:nth-child(4) .item-overlay {
-  background: url(ovimg/w4.jpg) center center no-repeat;
+  background: url(ovimg/w4.jpeg) center center no-repeat;
     background-size: cover;
     background-color: #000000;}
 .grid li:nth-child(5) .item-bg, .grid li:nth-child(5) .item-overlay {

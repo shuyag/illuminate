@@ -268,6 +268,57 @@ hr {
 .section-heading h2 {
 	font-size: 40px;
 }
+
+.section-heading h3 {
+  color: #000000;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+
+.section-heading h4 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0 0 0 10%;
+}
+
+
+.section-heading h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.section-heading h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
 .section-heading i {
 	margin-bottom: 20px;
 }
@@ -281,6 +332,22 @@ hr {
 
 .bg-gray {
 	background: #f8f8f8;
+}
+
+.bg-salmon {
+  background: #e76878;
+}
+
+.bg-apple{
+  background: url(../img/apple.png) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-skewer{
+  background: url(../img/skewer.jpg) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -390,6 +457,36 @@ margin: 0px auto 15px;
   background: url(../img/bg2.jpg) no-repeat top center;
 }
 
+.full-apple{
+ background: url(../img/apple.png) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 0 10% 0;
+}
+
+.full-apple h1{
+color: #000000;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+
+.full-apple h2 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: center;
+}
+
 #full.full {
   padding:10% 0 5% 0;
 }
@@ -441,6 +538,7 @@ margin: 0px auto 15px;
   margin-right: 200px;
   margin-left: 200px;
 }
+
 
 /* ===========================
 --- About

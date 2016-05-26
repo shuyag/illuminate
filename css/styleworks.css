@@ -8,6 +8,7 @@
 .single_header{
 	padding: 20% 20% 20% 20%;
 	background-color: #b7d2ff;
+	z-index: -1000;
 
 }
 .single_header h2{

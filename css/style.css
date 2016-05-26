@@ -253,6 +253,616 @@ hr {
 .marginbot-50{margin-bottom:50px !important;}
 
 /* ===========================
+--- insights sections
+============================ */
+.group-heading-top {
+  background: url(../img/bg3.jpg) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.group-heading-top2 {
+  background-color: #ffffff;
+  padding: 5% 5% 15% 5%;
+}
+
+.group-heading-top3 {
+  background-color: #e3e3e3;
+  padding: 5% 5% 15% 5%;
+}
+
+.group-heading-col {
+  padding: 0 10% 0 0;
+}
+
+.group-heading h1 {
+  color: #ced6ff;
+  text-shadow: none;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 20%;
+}
+
+.group-heading h2 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 10% 10% 10%;
+}
+
+.group-heading h3 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.group-heading h4 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: Crimson Text, serif;
+  text-align: left;
+}
+
+.group-heading h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.group-heading h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+.section-heading i {
+  margin-bottom: 20px;
+}
+
+.group-heading-text h1 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 10% 0 1% 0;
+}
+
+.group-heading-text h2 {
+  color: #000000;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 0 10% 0;
+}
+
+.group-heading-text h3 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.group-heading-text h4 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.group-heading-text h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.group-heading-text h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+
+.group-heading2 h1 {
+  color: #ced6ff;
+  text-shadow: none;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 20%;
+}
+
+.group-heading2 h2 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 10% 10% 10%;
+}
+
+.group-heading2 h3 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.group-heading2 h4 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: Crimson Text, serif;
+  text-align: left;
+}
+
+.group-heading2 h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.group-heading2 h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+.section-heading i {
+  margin-bottom: 20px;
+}
+
+.group-heading-text2 h1 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 10% 0 1% 0;
+}
+
+.group-heading-text2 h2 {
+  color: #000000;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 0 10% 0;
+}
+
+.group-heading-text2 h3 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.group-heading-text2 h4 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.group-heading-text2 h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.group-heading-text2 h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+/* ===========================
+--- principles sections
+============================ */
+.principles-heading-top {
+  background: url(../img/bg4.jpg) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principles-heading-top2 {
+  background-color: #ffffff;
+  padding: 15% 5% 15% 5%;
+}
+
+.principles-heading-top3 {
+  background-color: #e3e3e3;
+  padding: 5% 5% 15% 5%;
+}
+
+.principles-heading-col {
+  padding: 0 10% 0 10%;
+}
+
+.principles-heading h1 {
+  color: #ced6ff;
+  text-shadow: none;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 20%;
+  text-align: left;
+}
+
+.principles-heading h2 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 10% 10% 0;
+}
+
+.principles-heading h3 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 40%;
+}
+
+.principles-heading h4 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: Crimson Text, serif;
+  text-align: left;
+}
+
+.principles-heading h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.principles-heading h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+.principles-heading i {
+  margin-bottom: 20px;
+}
+
+.principles-heading-text h1 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 0 0 1% 0;
+}
+
+.principles-heading-text h2 {
+  color: #000000;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 0 0 0;
+}
+
+.principles-heading-text h3 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.principles-heading-text h4 {
+  color: #00466f;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.principles-heading-text h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.principles-heading-text h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+
+.principles-heading2 h1 {
+  color: #ced6ff;
+  text-shadow: none;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 20%;
+}
+
+.principles-heading2 h2 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 10% 10% 10%;
+}
+
+.principles-heading2 h3 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.principles-heading2 h4 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: Crimson Text, serif;
+  text-align: left;
+}
+
+.principles-heading2 h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.principles-heading2 h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+.section-heading i {
+  margin-bottom: 20px;
+}
+
+.principles-heading-text2 h1 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 0 0 1% 0;
+}
+
+.principles-heading-text2 h2 {
+  color: #000000;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  padding: 0 0 10% 0;
+}
+
+.principles-heading-text2 h3 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.principles-heading-text2 h4 {
+  color: #db3752;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.principles-heading-text2 h5 {
+  color: #ff6700;
+  text-shadow: none;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.principles-heading-text2 h6 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+
+/* ===========================
 --- General sections
 ============================ */
 
@@ -264,13 +874,30 @@ hr {
     z-index:120;
 }
 
-
+.section-heading h1 {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  font-family: Crimson Text, serif;
+  font-style: italic;
+  text-align: right;
+}
 .section-heading h2 {
-	font-size: 40px;
+	color: #ffffff;
+  text-shadow: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .section-heading h3 {
-  color: #000000;
+  color: #ffffff;
   text-shadow: none;
   font-size: 50px;
   line-height: 60px;
@@ -278,7 +905,7 @@ hr {
   font-family: Montserrat, sans-serif;
   letter-spacing: 7px;
   text-transform: uppercase;
-  padding-top: 10%;
+  text-align: left;
 }
 
 .section-heading h4 {
@@ -299,7 +926,7 @@ hr {
   color: #ff6700;
   text-shadow: none;
   font-size: 50px;
-  line-height: 48px;
+  line-height: 60px;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   letter-spacing: 7px;
@@ -348,6 +975,13 @@ hr {
   background: url(../img/skewer.jpg) no-repeat top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-waves{
+  background: url(../img/spec.png) no-repeat center center;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: 110% 20%;
 }
 
 
@@ -451,10 +1085,9 @@ margin: 0px auto 15px;
 ============================ */
 
 .full {
-  width:100%;
-  position:relative;
-  
   background: url(../img/bg2.jpg) no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .full-apple{
@@ -493,6 +1126,7 @@ color: #000000;
 
 .full .slogan {
   text-align: center;
+  padding: 0 5% 0 5%;
 
 }
 
@@ -511,7 +1145,7 @@ color: #000000;
 .full .slogan h2 {
   color: #FFF;
   text-shadow: none;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 60px;
   font-weight: 400;
   font-family: Montserrat, sans-serif;
@@ -520,13 +1154,15 @@ color: #000000;
   border-width: 0px;
   border-color: #000;
   border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
  }
 
 .full .slogan h4 {
   color: #FFF;
   text-shadow: none;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 36px;
+  line-height: 36px;
   font-weight: 300;
   font-style: italic;
   font-family: Crimson Text, serif;
